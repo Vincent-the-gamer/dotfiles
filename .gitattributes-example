@@ -1,0 +1,11 @@
+# rename to .gitattributes to use.
+
+# make .md suffix detectable in Git repo languages list.
+*.md linguist-detectable=true
+
+# mark something as "not a doc"
+*.md linguist-documentation=false
+# or a folder: docs/* linguist-documentation=false
+
+# mark some code files as the other language.
+*.java linguist-language=Rust
