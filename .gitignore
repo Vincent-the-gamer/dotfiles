@@ -1,0 +1,10 @@
+# Basic
+.idea
+.vscode
+.DS_Store
+
+# Node.js
+**/node_modules
+
+# Rust
+**/target
