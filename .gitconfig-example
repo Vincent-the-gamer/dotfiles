@@ -1,0 +1,15 @@
+[user]
+	name = your-name
+	email = your-email
+
+# macOS Homebrew
+[safe]
+	directory = /opt/homebrew/Library/Taps/homebrew/homebrew-core
+	directory = /opt/homebrew/Library/Taps/homebrew/homebrew-cask
+
+[core]
+	autocrlf = input
+
+# Set default branch to "main"
+[init]
+	defaultBranch = main
