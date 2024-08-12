@@ -11,4 +11,4 @@ If a dotfile has difference between `local` and `global`, then:
 Otherwise, use it's original name.
 
 # License
-[MIT License Vincent-the-gamer 2024-PRESENT](./LICENSE)
+[MIT License | Vincent-the-gamer | @2024-PRESENT](./LICENSE)
