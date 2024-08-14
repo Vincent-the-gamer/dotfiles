@@ -11,7 +11,11 @@ If a dotfile has difference between `local` and `global`, then:
 Otherwise, use it's original name.
 
 # Oh-my-zsh
-Copied from [Oh-my-zsh official repo](https://github.com/ohmyzsh/ohmyzsh)
+
+Visit my configuration: [https://github.com/Vincent-the-gamer/dotfiles/blob/main/zsh/.zshrc-oh-my-zsh](.zshrc-oh-my-zsh)
+
+> [!NOTE]
+> This part of doc is copied from [Oh-my-zsh official repo](https://github.com/ohmyzsh/ohmyzsh)
 
 ## Installation
 
