@@ -1,5 +1,4 @@
-# in macOS
-# add a simple syntax highlighting as I don‘t want oh-my-zsh.
+# macOS original terminal
 export CLICOLOR=1
 export LSCOLORS=ExGxFxdaCxDaDahbadeche
 autoload -U colors && colors
