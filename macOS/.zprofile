@@ -18,5 +18,5 @@ export PATH="/Users/{username}/.local/bin:$PATH"
 
 # Rustup工具链换源(用于安装/更新Rust)
 # 中国科学技术大学源
-RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
-RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
+export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
+export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
