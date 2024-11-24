@@ -8,6 +8,8 @@ If a dotfile has difference between `local` and `global`, then:
 
 `.gitattributes` is named `.gitattributes-example` to avoid it change info of this repo, rename it back to use.
 
+For *Rust* global config, please rename `cargo-config.toml` to config.toml, and put this file into `~/.cargo` folder.
+
 Otherwise, use it's original name.
 
 # Oh-my-zsh
