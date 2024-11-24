@@ -1,3 +1,5 @@
+# Rename it back to config.toml to use
+
 # 官方镜像源
 [source.crates-io]
 registry = "https://github.com/rust-lang/crates.io-index"
