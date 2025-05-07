@@ -20,3 +20,11 @@ export PATH="/Users/{username}/.local/bin:$PATH"
 # 中国科学技术大学源
 export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
 export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
+
+# Flutter环境变量
+export PATH=$HOME/flutter/bin:$PATH
+
+# Flutter换源
+export PUB_HOSTED_URL=https://pub.flutter-io.cn
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+export FLUTTER_GIT_URL=https://gitee.com/mirrors/Flutter.git
