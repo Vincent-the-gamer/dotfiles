@@ -27,4 +27,3 @@ export PATH=$HOME/flutter/bin:$PATH
 # Flutter换源
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
-export FLUTTER_GIT_URL=https://gitee.com/mirrors/Flutter.git
