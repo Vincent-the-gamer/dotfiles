@@ -12,6 +12,26 @@ For *Rust* global config, please rename `cargo-config.toml` to config.toml, and 
 
 Otherwise, use it's original name.
 
+# Ghostty
+
+[Ghostty](https://github.com/ghostty-org/ghostty) is a terminal emulator written by Zig, it allows you to do some customize by config.
+
+See my config: [My Ghostty Config](./ghostty/config)
+
+Install Ghostty: [Install](https://ghostty.org/docs/install/binary)
+
+![ghostty](./assets/ghostty.png)
+
+## Use my config
+
+> [!NOTE]
+> For Linux, $XDG_CONFIG_HOME is default to $HOME/.config/ghostty/config
+
+Copy the file or content to:
+
+- macOS: `$HOME/Library/Application\ Support/com.mitchellh.ghostty/config`
+- Linux: `$XDG_CONFIG_HOME/.config/ghostty/config`
+
 # Oh-my-zsh
 
 Visit my configuration: [.zshrc-oh-my-zsh](https://github.com/Vincent-the-gamer/dotfiles/blob/main/zsh/.zshrc-oh-my-zsh)

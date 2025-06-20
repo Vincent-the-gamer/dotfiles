@@ -1,0 +1,25 @@
+# Fonts
+font-family = Input
+font-family-bold = Input Bold
+font-family-italic = Input Italic
+font-family-bold-italic = Input BoldIta
+# macOS Only
+font-thicken = true
+
+# Window
+theme = Sakura
+background-opacity = 0.8
+background-blur = true
+window-width = 97
+window-height = 30
+background = #15002a
+window-theme = auto
+macos-titlebar-style = tabs
+
+# Palette
+palette = 2=#00bac5
+palette = 3=#cd6b00
+palette = 6=#f2005a
+palette = 10=#00dce9
+palette = 11=#f18d00
+palette = 14=#ff609b
