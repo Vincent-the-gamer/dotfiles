@@ -14,7 +14,7 @@ Otherwise, use it's original name.
 
 # Ghostty
 
-[Ghostty](https://github.com/ghostty-org/ghostty) is a terminal emulator written by Zig, it allows you to do some customize by config.
+[Ghostty](https://github.com/ghostty-org/ghostty) is a terminal emulator written in Zig, it allows you to do some customize by config.
 
 See my config: [My Ghostty Config](./ghostty/config)
 
