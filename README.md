@@ -25,7 +25,7 @@ Install Ghostty: [Install](https://ghostty.org/docs/install/binary)
 ## Use my config
 
 > [!NOTE]
-> For Linux, $XDG_CONFIG_HOME is default to $HOME/.config/ghostty/config
+> For Linux, $XDG_CONFIG_HOME is default to $HOME (/home/user_name/)
 
 Copy the file or content to:
 
