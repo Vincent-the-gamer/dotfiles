@@ -23,3 +23,6 @@ palette = 6=#f2005a
 palette = 10=#00dce9
 palette = 11=#f18d00
 palette = 14=#ff609b
+
+# Shell
+shell-integration-features = sudo
