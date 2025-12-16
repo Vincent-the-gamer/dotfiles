@@ -7,14 +7,13 @@ export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles"
 export HOMEBREW_API_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles/api"
 eval $(/opt/homebrew/bin/brew shellenv)
 
-# Python 3.12 环境变量
-# Setting PATH for Python 3.12
+# Python 3.14 环境变量
 # The original version is saved in .zprofile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"
+PATH="/Library/Frameworks/Python.framework/Versions/3.14/bin:${PATH}"
 export PATH
 
-# Poetry环境变量
-export PATH="$HOME/.local/bin:$PATH"
+# .local环境变量
+export PATH="/Users/aya/.local/bin:$PATH"
 
 # Rustup工具链换源(用于安装/更新Rust)
 # 中国科学技术大学源
