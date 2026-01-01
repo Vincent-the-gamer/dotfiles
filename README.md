@@ -12,6 +12,14 @@ For *Rust* global config, please rename `cargo-config.toml` to config.toml, and 
 
 Otherwise, use it's original name.
 
+# Zed Configuration
+
+## Eslint config for JavaScript, TypeScript, and Vue.js
+
+Add `zed/js-ts-vue.json` to your project's `.zed/settings.json` to disable Zed's default error hints. Then Zed will use the ESLint configuration in your project's `.eslintrc.json` or `eslint.config.js` file.
+
+More Zed config will be added later.
+
 # Ghostty
 
 [Ghostty](https://github.com/ghostty-org/ghostty) is a terminal emulator written in Zig, it allows you to do some customize by config.
