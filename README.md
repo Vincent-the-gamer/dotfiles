@@ -2,21 +2,31 @@
 <p align="center">My dotfiles.</p>
 
 # Notice
+
 If a dotfile has difference between `local` and `global`, then:
+
 - `.xxx` for local configs.
 - `.xxx-global` for global configs.
 
 `.gitattributes` is named `.gitattributes-example` to avoid it change info of this repo, rename it back to use.
 
-For *Rust* global config, please rename `cargo-config.toml` to config.toml, and put this file into `~/.cargo` folder.
+For _Rust_ global config, please rename `cargo-config.toml` to config.toml, and put this file into `~/.cargo` folder.
 
 Otherwise, use it's original name.
 
 # Zed Configuration
 
+## Global
+
+My global config is stored in `zed/global.json`. And it requires the following things:
+
+- Icon theme: Catppuccin Icons
+- Theme: Catppuccin
+- Font: Input Mono
+
 ## Eslint config for JavaScript, TypeScript, and Vue.js
 
-Add `zed/js-ts-vue.json` to your project's `.zed/settings.json` to disable Zed's default error hints. Then Zed will use the ESLint configuration in your project's `.eslintrc.json` or `eslint.config.js` file.
+Add `zed/js-ts-vue.json` to your `settings.json` to disable Zed's default error hints. Then Zed will use the ESLint configuration in your project's `.eslintrc.json` or `eslint.config.js` file.
 
 More Zed config will be added later.
 
@@ -63,15 +73,15 @@ Oh My Zsh is installed by running one of the following commands in your terminal
 | :-------- | :------------------------------------------------------------------------------------------------ |
 | **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
 | **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`   |
-| **fetch** | `sh -c "$(fetch -o- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
+| **fetch** | `sh -c "$(fetch -o- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`  |
 
 Alternatively, the installer is also mirrored outside GitHub. Using this URL instead may be required if you're in a country like China or India (for certain ISPs), that blocks `raw.githubusercontent.com`:
 
-| Method    | Command                                                                                           |
-| :-------- | :------------------------------------------------------------------------------------------------ |
-| **curl**  | `sh -c "$(curl -fsSL https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)"`                                                 |
-| **wget**  | `sh -c "$(wget -O- https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)"`                                                   |
-| **fetch** | `sh -c "$(fetch -o- https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)"`                                                 |
+| Method    | Command                                                                              |
+| :-------- | :----------------------------------------------------------------------------------- |
+| **curl**  | `sh -c "$(curl -fsSL https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)"` |
+| **wget**  | `sh -c "$(wget -O- https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)"`   |
+| **fetch** | `sh -c "$(fetch -o- https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)"`  |
 
 _Note that any previous `.zshrc` will be renamed to `.zshrc.pre-oh-my-zsh`. After installation, you can move the configuration you want to preserve into the new `.zshrc`._
 
@@ -80,4 +90,5 @@ _Note that any previous `.zshrc` will be renamed to `.zshrc.pre-oh-my-zsh`. Afte
 If you want to uninstall `oh-my-zsh`, just run `uninstall_oh_my_zsh` from the command-line. It will remove itself and revert your previous `bash` or `zsh` configuration.
 
 # License
+
 [MIT License | Vincent-the-gamer | @2024-PRESENT](./LICENSE)

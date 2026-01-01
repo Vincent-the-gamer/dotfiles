@@ -1,0 +1,62 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "icon_theme": "Catppuccin Mocha",
+  "format_on_save": "on",
+  "disable_ai": false,
+  "autosave": "on_window_change",
+  "buffer_font_family": "Input",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 13.0,
+  "theme": {
+    "mode": "dark",
+    "light": "Catppuccin Mocha",
+    "dark": "Catppuccin Mocha",
+  },
+  "languages": {
+    "JavaScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true,
+      },
+    },
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true,
+      },
+      "formatter": [],
+    },
+    "Vue.js": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true,
+      },
+    },
+  },
+  "lsp": {
+    "eslint": {
+      "settings": {
+        "rulesCustomizations": [
+          { "rule": "style/*", "severity": "off", "fixable": true },
+          { "rule": "format/*", "severity": "off", "fixable": true },
+          { "rule": "*-indent", "severity": "off", "fixable": true },
+          { "rule": "*-spacing", "severity": "off", "fixable": true },
+          { "rule": "*-spaces", "severity": "off", "fixable": true },
+          { "rule": "*-order", "severity": "off", "fixable": true },
+          { "rule": "*-dangle", "severity": "off", "fixable": true },
+          { "rule": "*-newline", "severity": "off", "fixable": true },
+          { "rule": "*quotes", "severity": "off", "fixable": true },
+          { "rule": "*semi", "severity": "off", "fixable": true },
+        ],
+      },
+    },
+  },
+}
