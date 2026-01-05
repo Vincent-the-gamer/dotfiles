@@ -7,6 +7,19 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "ensure_final_newline_on_save": false,
+  "remove_trailing_whitespace_on_save": true,
+  "git": {
+    "inline_blame": {
+      "show_commit_summary": true
+    }
+  },
+  "tabs": {
+    "git_status": true
+  },
+  "project_panel": {
+    "auto_fold_dirs": false
+  },
   "icon_theme": "Catppuccin Mocha",
   "format_on_save": "on",
   "disable_ai": false,
