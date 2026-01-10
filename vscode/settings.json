@@ -1,0 +1,110 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontSize": 14,
+  "files.autoSave": "onFocusChange",
+  "editor.tokenColorCustomizations": {
+    "comments": {
+      "foreground": "#ffcbfb",
+      "fontStyle": "bold"
+    }
+  },
+  "explorer.compactFolders": false,
+  "editor.minimap.enabled": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "solid",
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": false,
+  "editor.fontFamily": "Input, DM Mono, monospace",
+  "git.ignoreLegacyWarning": true,
+  "remote.SSH.configFile": "/Users/guifeng/VSCodeWorkSpace/vscode-ssh-config/ssh-config",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "background.fullscreen": {
+    "images": ["file:///Applications/壁纸/其他/樱花背景.jpg"],
+    "opacity": 0.1,
+    "size": "cover",
+    "position": "center",
+    "interval": 0
+  },
+  "background.editor": {
+    "background-position": "100% 100%",
+    "background-size": "cover",
+    "opacity": 0.3
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "sakura-chan-theme.imports": [
+    "file:///Users/guifeng/.vscode/extensions/vincent-the-gamer.sakura-chan-theme-0.1.2/bloom.css",
+    "file:///Users/guifeng/.vscode/extensions/vincent-the-gamer.sakura-chan-theme-0.1.2/dist/trail.js"
+  ],
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "emulator.emulatorPath": "~/android-sdk/emulator",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "editor.cursorWidth": 3,
+  "workbench.colorTheme": "Sakura",
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  }
+}
+{
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontSize": 14,
+    "files.autoSave": "onFocusChange",
+    "editor.tokenColorCustomizations": {
+        "comments": {
+            "foreground": "#ffcbfb",
+            "fontStyle": "bold"
+        }
+    },
+    "explorer.compactFolders": false,
+    "editor.minimap.enabled": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "solid",
+    "editor.fontWeight": "normal",
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "Input, DM Mono, monospace",
+    "git.ignoreLegacyWarning": true,
+    "remote.SSH.configFile": "/Users/guifeng/VSCodeWorkSpace/vscode-ssh-config/ssh-config",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "background.fullscreen": {
+        "images": ["file:///Applications/壁纸/其他/樱花背景.jpg"],
+        "opacity": 0.1,
+        "size": "cover",
+        "position": "center",
+        "interval": 0
+    },
+    "background.editor": {
+        "background-position": "100% 100%",
+        "background-size": "cover",
+        "opacity": 0.3
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "sakura-chan-theme.imports": [
+        "file:///Users/guifeng/.vscode/extensions/vincent-the-gamer.sakura-chan-theme-0.1.2/bloom.css",
+        "file:///Users/guifeng/.vscode/extensions/vincent-the-gamer.sakura-chan-theme-0.1.2/dist/trail.js"
+    ],
+    "emulator.emulatorPath": "~/android-sdk/emulator",
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.cursorWidth": 3,
+    "workbench.colorTheme": "Sakura",
+    "[markdown]": {
+        "diffEditor.ignoreTrimWhitespace": true
+    },
+}

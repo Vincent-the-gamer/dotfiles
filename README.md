@@ -14,21 +14,46 @@ For _Rust_ global config, please rename `cargo-config.toml` to config.toml, and 
 
 Otherwise, use it's original name.
 
+# Font
+
+Choose your favorite font for your editor, IDE, terminal, etc.
+
+- [Input Mono](https://input.djr.com/)
+
 # Zed Configuration
 
 ## Global
 
 My global config is stored in `zed/global.json`. And it requires the following things:
 
-- Icon theme: Catppuccin Icons
-- Theme: Catppuccin
-- Font: Input Mono
+- Icon theme: Catppuccin Icons (Extension)
+- Theme: Catppuccin (Extension)
+
+Additionally, choose your favorite font for the editor.
+
+## Extensions
+
+I have installed the following extensions:
+
+- Theme: [Catppuccin](https://github.com/catppuccin/zed)
+- Icon Theme: [Zed Icons](https://github.com/zed-icons/zed-icons)
+- Language Support: Vue, SCSS, Emmet, TOML.
 
 ## Eslint config for JavaScript, TypeScript, and Vue.js
 
 Add `zed/js-ts-vue.json` to your `settings.json` to disable Zed's default error hints. Then Zed will use the ESLint configuration in your project's `.eslintrc.json` or `eslint.config.js` file.
 
 More Zed config will be added later.
+
+# VSCode Configuration
+
+My VSCode config is stored in `vscode/settings.json`.
+
+## Extensions
+
+My VSCode extensions are stored in `vscode/extensions.json`.
+
+Additionally, choose your favorite font for your VSCode.
 
 # Ghostty
 

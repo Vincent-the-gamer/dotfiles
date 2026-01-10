@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "shalldie.background",
+    "tamasfe.even-better-toml",
+    "donjayamanne.githistory",
+    "ritwickdey.liveserver",
+    "rust-lang.rust-analyzer",
+    "vincent-the-gamer.sakura-chan-theme",
+    "antfu.unocss",
+    "vscode-icons-team.vscode-icons",
+    "vue.volar"
+  ]
+}
