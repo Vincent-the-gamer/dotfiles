@@ -38,7 +38,7 @@ My global config is stored in `zed/global.json`. And it requires the following t
 I have installed the following extensions:
 
 - Theme: [Catppuccin](https://github.com/catppuccin/zed)
-- Icon Theme: [Zed Icons](https://github.com/zed-icons/zed-icons)
+- Icon Theme: [Catppuccin Icons](https://github.com/catppuccin/zed-icons)
 - Language Support: Vue, SCSS, Emmet, TOML.
 
 ## Eslint config for JavaScript, TypeScript, and Vue.js
