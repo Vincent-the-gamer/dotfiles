@@ -14,6 +14,10 @@ For _Rust_ global config, please rename `cargo-config.toml` to config.toml, and 
 
 Otherwise, use it's original name.
 
+# macOS Setup
+
+For macOS setup, please refer to [macOS setup document](./macOS/macOS-setup.md).
+
 # Font
 
 Choose your favorite font for your editor, IDE, terminal, etc.
@@ -28,8 +32,6 @@ My global config is stored in `zed/global.json`. And it requires the following t
 
 - Icon theme: Catppuccin Icons (Extension)
 - Theme: Catppuccin (Extension)
-
-Additionally, choose your favorite font for the editor.
 
 ## Extensions
 
@@ -52,8 +54,6 @@ My VSCode config is stored in `vscode/settings.json`.
 ## Extensions
 
 My VSCode extensions are stored in `vscode/extensions.json`.
-
-Additionally, choose your favorite font for your VSCode.
 
 # Ghostty
 
