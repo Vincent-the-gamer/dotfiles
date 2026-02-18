@@ -16,9 +16,8 @@ export PATH
 export PATH="/Users/aya/.local/bin:$PATH"
 
 # Rustup工具链换源(用于安装/更新Rust)
-# 中国科学技术大学源
-export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
-export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
+export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
+export RUSTUP_UPDATE_ROOT=https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup
 
 # Android环境变量
 export ANDROID_HOME=$HOME/android-sdk
