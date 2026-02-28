@@ -26,3 +26,6 @@ palette = 14=#ff609b
 
 # Shell
 shell-integration-features = sudo
+
+# Shaders
+custom-shader = shaders/glow.glsl
