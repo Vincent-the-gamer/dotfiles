@@ -65,6 +65,16 @@ Install Ghostty: [Install](https://ghostty.org/docs/install/binary)
 
 ![ghostty](./assets/ghostty.png)
 
+## Ghostty Custom Shaders
+
+Ghostty allows you to customize the shaders used to render the terminal.
+
+**Example:**
+
+Glow Shader: `./ghostty/shaders/glow.glsl`
+
+![ghostty-shader](./assets/ghostty-shader.png)
+
 ## Use my config
 
 > [!NOTE]
