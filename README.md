@@ -37,7 +37,7 @@ My global config is stored in `zed/global.json`. And it requires the following t
 
 I have installed the following extensions:
 
-- Theme: [Catppuccin](https://github.com/catppuccin/zed)
+- Theme: [Vitesse Theme Refined](https://github.com/colinlienard/zed-vitesse-theme-refined)
 - Icon Theme: [Catppuccin Icons](https://github.com/catppuccin/zed-icons)
 - Language Support: Vue, SCSS, Emmet, TOML.
 

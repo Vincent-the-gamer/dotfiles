@@ -27,5 +27,6 @@ palette = 14=#ff609b
 # Shell
 shell-integration-features = sudo
 
-# Shaders
+# Shader
 custom-shader = shaders/glow.glsl
+custom-shader = shaders/cursor_warp.glsl

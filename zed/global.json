@@ -1,17 +1,17 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent": {
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-5-mini"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
   "git_panel": {
     "tree_view": true
   },
   "ensure_final_newline_on_save": false,
-  "remove_trailing_whitespace_on_save": true,
   "git": {
     "inline_blame": {
       "show_commit_summary": true
@@ -26,38 +26,53 @@
   "icon_theme": "Catppuccin Mocha",
   "format_on_save": "on",
   "disable_ai": false,
-  "autosave": "on_window_change",
+  "autosave": "on_focus_change",
   "buffer_font_family": "Input",
   "telemetry": {
     "diagnostics": false,
-    "metrics": false,
+    "metrics": false
   },
   "ui_font_size": 16,
   "buffer_font_size": 13.0,
   "theme": {
     "mode": "dark",
-    "light": "Catppuccin Mocha",
-    "dark": "Catppuccin Mocha",
+    "light": "Vitesse Refined Light Soft",
+    "dark": "Vitesse Refined Dark"
   },
   "languages": {
     "JavaScript": {
       "code_actions_on_format": {
-        "source.fixAll.eslint": true,
-      },
+        "source.fixAll.eslint": true
+      }
     },
     "TypeScript": {
       "code_actions_on_format": {
-        "source.fixAll.eslint": true,
+        "source.fixAll.eslint": true
       },
-      "formatter": [],
+      "formatter": []
     },
     "Vue.js": {
       "code_actions_on_format": {
-        "source.fixAll.eslint": true,
-      },
-    },
+        "source.fixAll.eslint": true
+      }
+    }
   },
   "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    },
     "eslint": {
       "settings": {
         "rulesCustomizations": [
@@ -72,9 +87,9 @@
           { "rule": "*-newline", "severity": "off", "fixable": true },
           { "rule": "*quotes", "severity": "off", "fixable": true },
           { "rule": "*semi", "severity": "off", "fixable": true },
-          { "rule": "no-console", "severity": "off", "fixable": true },
-        ],
-      },
-    },
-  },
+          { "rule": "no-console", "severity": "off", "fixable": true }
+        ]
+      }
+    }
+  }
 }
