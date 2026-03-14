@@ -12,6 +12,9 @@ eval $(/opt/homebrew/bin/brew shellenv)
 PATH="/Library/Frameworks/Python.framework/Versions/3.14/bin:${PATH}"
 export PATH
 
+# 配置uv默认镜像源
+export UV_DEFAULT_INDEX="https://pypi.tuna.tsinghua.edu.cn/simple"
+
 # .local环境变量
 export PATH="/Users/aya/.local/bin:$PATH"
 

@@ -5,6 +5,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH/custom/themes/spaceship-prompt" --depth=1
+# Use ABSOLUTE path to link spaceship theme
 # ln -s "$ZSH/custom/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH/custom/themes/spaceship.zsh-theme"
 ZSH_THEME="spaceship"
 
