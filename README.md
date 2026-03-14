@@ -28,10 +28,13 @@ Choose your favorite font for your editor, IDE, terminal, etc.
 
 ## Global
 
+> [!IMPORTANT]
+> Install extensions before using this config.
+
 My global config is stored in `zed/global.json`. And it requires the following things:
 
 - Icon theme: Catppuccin Icons (Extension)
-- Theme: Catppuccin (Extension)
+- Theme: Vitesse Theme Refined (Extension)
 
 ## Extensions
 
