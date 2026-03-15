@@ -29,3 +29,6 @@ export NDK_HOME=$ANDROID_HOME/ndk/29.0.13113456
 
 # ffmpeg环境变量
 export PATH="$HOME/ffmpeg:$PATH"
+
+# hack
+alias lemmerun="xattr -d com.apple.quarantine"
