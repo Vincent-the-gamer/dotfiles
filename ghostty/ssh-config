@@ -1,0 +1,3 @@
+# Fix Ghostty ssh term error
+Host *
+    SetEnv TERM=xterm-256color

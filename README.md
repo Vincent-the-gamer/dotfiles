@@ -60,6 +60,12 @@ My VSCode extensions are stored in `vscode/extensions.json`.
 
 # Ghostty
 
+> [!IMPORTANT]
+> Ghostty uses xterm-ghostty as its default terminal type. Because many remote servers lack this terminfo entry, SSH sessions may encounter
+> issues like "unknown terminal type," broken backspace, or missing colors.
+>
+> So I add a ssh config into `.ssh/config`, see [ssh-config](./ghostty/ssh-config)
+
 [Ghostty](https://github.com/ghostty-org/ghostty) is a terminal emulator written in Zig, it allows you to do some customizations by config.
 
 See my config: [My Ghostty Config](./ghostty/config)
