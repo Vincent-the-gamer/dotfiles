@@ -3,18 +3,19 @@
 # 官方镜像源
 [source.crates-io]
 registry = "https://github.com/rust-lang/crates.io-index"
- 
 # 替换成你偏好的镜像源
 replace-with = 'tuna'
 
 # 清华大学
 [source.tuna]
-registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
+registry = "sparse+https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
+# registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
  
 # 中国科学技术大学
 [source.ustc]
-registry = "https://mirrors.ustc.edu.cn/crates.io-index"
+registry = "sparse+https://mirrors.ustc.edu.cn/crates.io-index/"
+# registry = "https://mirrors.ustc.edu.cn/crates.io-index/"
  
 # 上海交通大学
 [source.sjtu]
-registry = "https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index"
+registry = "sparse+https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index/"
