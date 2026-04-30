@@ -26,6 +26,8 @@ Choose your favorite font for your editor, IDE, terminal, etc.
 
 # Zed Configuration
 
+![zed-blur](./assets/zed-blur.png)
+
 ## Global
 
 > [!IMPORTANT]
@@ -35,6 +37,7 @@ My global config is stored in `zed/global.json`. And it requires the following t
 
 - Icon theme: Catppuccin Icons (Extension)
 - Theme: Vitesse Theme Refined (Extension)
+- Experimental: use `experimental.theme_overrides` key to define transparent or blurry background.
 
 ## Extensions
 
