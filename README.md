@@ -24,6 +24,13 @@ Choose your favorite font for your editor, IDE, terminal, etc.
 
 - [Input Mono](https://input.djr.com/)
 
+# Rust
+
+My `cargo install` tools:
+
+- `wasm-pack`: Compile WebAssembly apps based on Rust.
+- `cargo-cache`: Use `cargo cache -a` to automatically clean Cargo cache.
+
 # Zed Configuration
 
 ![zed-blur](./assets/zed-blur.png)
