@@ -31,6 +31,15 @@ My `cargo install` tools:
 - `wasm-pack`: Compile WebAssembly apps based on Rust.
 - `cargo-cache`: Use `cargo cache -a` to automatically clean Cargo cache.
 
+# Terminal
+
+I'm using [kitty](https://github.com/kovidgoyal/kitty), config [here](./kitty/kitty.conf).
+
+This config is using custom shader, see [shaders](./kitty/shaders/README.md).
+
+![kitty](./assets/kitty.png)
+
+
 # Zed Configuration
 
 ![zed-blur](./assets/zed-blur.png)
@@ -67,32 +76,6 @@ My VSCode config is stored in `vscode/settings.json`.
 ## Extensions
 
 My VSCode extensions are stored in `vscode/extensions.json`.
-
-# Ghostty
-
-> [!IMPORTANT]
-> Ghostty uses xterm-ghostty as its default terminal type. Because many remote servers lack this terminfo entry, SSH sessions may encounter
-> issues like "unknown terminal type," broken backspace, or missing colors.
->
-> So I add a ssh config into `.ssh/config`, see [ssh-config](./ghostty/ssh-config)
-
-[Ghostty](https://github.com/ghostty-org/ghostty) is a terminal emulator written in Zig, it allows you to do some customizations by config.
-
-See my config: [My Ghostty Config](./ghostty/config)
-
-Install Ghostty: [Install](https://ghostty.org/docs/install/binary)
-
-![ghostty](./assets/ghostty.png)
-
-## Ghostty Custom Shaders
-
-Ghostty allows you to customize the shaders used to render the terminal.
-
-**Example:**
-
-Glow Shader: `./ghostty/shaders/glow.glsl`
-
-![ghostty-shader](./assets/ghostty-shader.png)
 
 ## Use my config
 
@@ -142,6 +125,35 @@ _Note that any previous `.zshrc` will be renamed to `.zshrc.pre-oh-my-zsh`. Afte
 ## Uninstallation
 
 If you want to uninstall `oh-my-zsh`, just run `uninstall_oh_my_zsh` from the command-line. It will remove itself and revert your previous `bash` or `zsh` configuration.
+
+# Ghostty
+
+> [!CAUTION]
+> Deprecated, I use kitty instead.
+
+> [!IMPORTANT]
+> Ghostty uses xterm-ghostty as its default terminal type. Because many remote servers lack this terminfo entry, SSH sessions may encounter
+> issues like "unknown terminal type," broken backspace, or missing colors.
+>
+> So I add a ssh config into `.ssh/config`, see [ssh-config](./ghostty/ssh-config)
+
+[Ghostty](https://github.com/ghostty-org/ghostty) is a terminal emulator written in Zig, it allows you to do some customizations by config.
+
+See my config: [My Ghostty Config](./ghostty/config)
+
+Install Ghostty: [Install](https://ghostty.org/docs/install/binary)
+
+![ghostty](./assets/ghostty.png)
+
+## Ghostty Custom Shaders
+
+Ghostty allows you to customize the shaders used to render the terminal.
+
+**Example:**
+
+Glow Shader: `./ghostty/shaders/glow.glsl`
+
+![ghostty-shader](./assets/ghostty-shader.png)
 
 # License
 

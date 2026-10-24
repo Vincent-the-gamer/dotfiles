@@ -1,0 +1,70 @@
+# Fluorescent / neon text glow.
+#
+# Enable with:
+#     custom_shaders neon-text cursor-trail-motion-blur
+#
+# The emission is blurred in two separable passes with a tight stride (crisp
+# core glow) and two more with a wide stride (soft halo), then added back on
+# top of the frame. All passes are static, so they only re-run when the screen
+# content changes.
+#
+# Tuning cheatsheet:
+#   too bright overall      -> lower GLOW_INTENSITY (last group), or raise
+#                              GLOW_ROLLOFF / lower it in neon-composite.slang
+#   halo too big            -> lower the two wide STRIDE values (4.0 -> 3.0)
+#   only vivid text glows   -> raise GLOW_THRESHOLD in both .slang files
+#
+# Presets:
+#   subtle   GLOW_INTENSITY 0.4   STRIDE 1.5 / 3.0
+#   neon     GLOW_INTENSITY 0.8   STRIDE 1.5 / 4.0   (default)
+#   extreme  GLOW_INTENSITY 1.5   STRIDE 2.0 / 7.0
+
+textures a b
+
+# Tight horizontal blur, extracting the emission from the rendered frame.
+startgroup
+    animation_step 0
+    var int SOURCE 0
+    var int AXIS 0
+    var float STRIDE 1.5
+    shaders neon-blur
+    output_texture a
+endgroup
+
+# Tight vertical blur.
+startgroup
+    animation_step 0
+    var int SOURCE 1
+    var int AXIS 1
+    var float STRIDE 1.5
+    shaders neon-blur
+    output_texture b
+endgroup
+
+# Wide horizontal blur, on top of the tight one.
+startgroup
+    animation_step 0
+    var int SOURCE 2
+    var int AXIS 0
+    var float STRIDE 4.0
+    shaders neon-blur
+    output_texture a
+endgroup
+
+# Wide vertical blur.
+startgroup
+    animation_step 0
+    var int SOURCE 1
+    var int AXIS 1
+    var float STRIDE 4.0
+    shaders neon-blur
+    output_texture b
+endgroup
+
+# Composite: frame + glow.
+startgroup
+    animation_step 0
+    var float GLOW_INTENSITY 0.8
+    var float TEXT_BOOST 0.1
+    shaders neon-composite
+endgroup
