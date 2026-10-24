@@ -35,7 +35,7 @@ My `cargo install` tools:
 
 I'm using [kitty](https://github.com/kovidgoyal/kitty), config [here](./kitty/kitty.conf).
 
-If using tropical neon theme, you need to add this to make your zsh-suggestion clearly shows.
+If using tropical neon theme, you need to add this into `~/.zshrc` to make your zsh-suggestion clearly shows.
 
 ```bash
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#6b78b8'
